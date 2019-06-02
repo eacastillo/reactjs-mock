@@ -93,7 +93,7 @@ const styles = theme => ({
 });
 
 const HomeLink = React.forwardRef((props, ref) => (
-    <Link innerRef={ref} to="/" {...props} />
+    <Link innerRef={ref} to="/main" {...props} />
 ));
 
 class Main extends Component {
