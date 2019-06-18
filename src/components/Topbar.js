@@ -1,4 +1,5 @@
 import React,  { Component } from 'react';
+import Button from '@material-ui/core/Button';
 import withStyles from '@material-ui/core/styles/withStyles';
 import { Link, withRouter } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
@@ -143,7 +144,7 @@ class Topbar extends Component {
     const { classes } = this.props;
 
     return (
-      <AppBar position="absolute" color="default" className={classes.appBar}>
+      <AppBar position="static" color="default" className={classes.appBar}>
         <Toolbar>
             <Grid container spacing={24} alignItems="baseline">
               <Grid item xs={12} className={classes.flex}>
@@ -186,6 +187,7 @@ class Topbar extends Component {
                           ))}
                         </Tabs>
                       </div>
+                      <Button color="primary">Login</Button>
                     </React.Fragment>
                   )}
               </Grid>

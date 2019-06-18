@@ -24,7 +24,7 @@ export default props => (
                 <Route exact path='/scheduling' component={Scheduling}/>
                 <Route exact path='/payment' component={Payment}/>
                 <Route exact path='/accounting' component={Accounting}/>
-                <Route exact path='/' component={Login}/>
+                <Route exact path='/' component={Main}/>
                 <Route exact path='/main' component={Main}/>
                 <Route exact path='/dashboard' component={Dashboard}/>
                 <Route exact path='/signup' component={Signup}/>
